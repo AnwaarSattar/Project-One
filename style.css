@@ -1,0 +1,749 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-image: url(image11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+    position: relative;
+    bottom: 25px;
+    display: flex;
+
+
+}
+
+.navtext {
+    color: antiquewhite;
+    padding-top: 20px;
+    padding-left: 70px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    margin-left: 400px;
+    margin-top: 50px;
+    font-weight: bold;
+
+
+
+}
+
+ul li a {
+    text-decoration: none;
+    padding-left: 15px;
+    font-size: large;
+
+
+}
+
+.maincontent {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.firstcontent {
+    background-repeat: no-repeat;
+    margin-left: 30px;
+    margin-top: 30px;
+
+
+}
+
+.btn:hover {
+    transition: 10s;
+    background-color: blue;
+}
+
+.btn {
+    margin-top: 70px;
+    background-color: red;
+    width: 140px;
+    height: 50px;
+    font-size: large;
+    font-family: Arial;
+    color: whitesmoke;
+    border-radius: 8px;
+    border-style: none;
+
+}
+
+.theory {
+    margin-top: 50px;
+    width: 500px;
+    height: 10px;
+    line-height: 25px;
+}
+
+.fast {
+    margin-top: 20px;
+    margin-right: 90px;
+    width: 500px;
+    height: 40px;
+    font-family: Arial;
+}
+
+.safe {
+    margin-top: 40px;
+    color: darkgray;
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: 750;
+}
+
+.pcontent {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 30%;
+    background-color: rgb(248, 241, 229);
+}
+
+.picfirst {
+    margin-top: 120px;
+    background-image: url("image11.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    height: 260px;
+    width: 550px;
+    margin-left: 50px;
+
+}
+
+.Global {
+    margin-left: 40px;
+    margin-top: 30px;
+    color: whitesmoke;
+    height: 30px;
+    width: 300px;
+
+}
+
+.secbtn {
+    width: 150px;
+    height: 50px;
+    margin-left: 40px;
+    margin-top: 60px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bolder;
+
+}
+
+.secbtn:hover {
+    background-color: red;
+    transition: 3s ease;
+    border-color: red;
+}
+
+.picsec {
+    background-image: url(banner2.jpg);
+    margin-top: 120px;
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    height: 260px;
+    width: 550px;
+    margin-right: 50px;
+
+
+
+
+}
+
+.Globall {
+    margin-left: 40px;
+    margin-top: 60px;
+    color: whitesmoke;
+    height: 30px;
+    width: 400px;
+
+}
+
+.secbtnn {
+    width: 150px;
+    height: 50px;
+    margin-left: 40px;
+    margin-top: 30px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+.sea {
+    margin-left: 20px;
+    margin-top: 7px;
+    font-size: 20px;
+}
+
+.securem {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.secure {
+    width: 500px;
+    height: 20px;
+    margin-right: 120px;
+}
+
+.courier {
+    color: darkgray;
+    font-size: 13px;
+    width: 150px;
+    height: 30px;
+    margin-top: 50px;
+}
+
+.small {
+    margin-top: -20px;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+
+}
+
+.packages {
+    line-height: 40px;
+    font-weight: 200;
+}
+
+.btnthird {
+    padding: 15px 30px;
+    text-transform: capitalize;
+    line-height: 18px;
+    margin-left: 10px;
+    margin-top: 25px;
+    background-color: red;
+    color: white;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 600;
+    border-style: none;
+}
+
+.trackingmain {
+    margin-top: 60px;
+    width: 700px;
+    height: 20px;
+    font-size: 20PX;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+
+.sectionfone {
+    background-image: url(cont.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+
+}
+
+.fastest {
+    color: rgb(211, 205, 205);
+    font-size: 13px;
+    width: 250px;
+    height: 30px;
+    margin-left: 700px;
+    padding-top: 50px;
+    font-family: sans-serif;
+}
+
+.fonep {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+    color: whitesmoke;
+    width: 550px;
+    height: 40px;
+    margin-left: 700px;
+    margin-top: -20px;
+    font-family: sans-serif;
+}
+
+.sectionfourp {
+    width: 400px;
+    height: 30px;
+    color: whitesmoke;
+    line-height: 30px;
+    padding-top: 90px;
+    font-size: 20px;
+    margin-left: 700px;
+}
+
+.btntfour {
+    padding: 15px 30px;
+    text-transform: capitalize;
+    line-height: 18px;
+    margin-left: 700px;
+    margin-top: 125px;
+    background-color: red;
+    color: white;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 700;
+    border-style: none;
+    font-family: sans-serif;
+}
+
+.fiveone {
+    color: rgb(145, 135, 135);
+    font-size: 15px;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.fivetwo {
+    font-weight: 700;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 40px;
+    margin-top: -5px;
+}
+
+.sectionfive {
+    width: 100%;
+    height: 70px;
+}
+
+.transportationmain {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 200px;
+    padding-top: 160px;
+}
+
+.transport {
+    width: 350px;
+    text-align: center;
+
+    margin-left: 80px;
+}
+
+.livemonitoring {
+    width: 350px;
+    text-align: center;
+
+    margin-right: 50px;
+
+}
+
+.worldwideservices {
+    width: 350px;
+    text-align: center;
+
+    margin-right: 70px;
+}
+
+.rd {
+    width: 300px;
+    height: 200px;
+    margin-left: 30px;
+    border-radius: 6px;
+    margin-top: 90px;
+}
+
+
+.hf {
+    margin-left: 30px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.hfp {
+    margin-left: 30px;
+    width: 300px;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgb(99, 100, 102);
+}
+
+.as {
+    width: 300px;
+    height: 200px;
+    margin-left: 30px;
+    border-radius: 6px;
+    margin-top: 90px;
+}
+
+.ar {
+    margin-left: 30px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.shi {
+    margin-left: 30px;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgb(99, 100, 102);
+}
+
+.ls {
+    width: 300px;
+    height: 200px;
+    margin-left: 30px;
+    border-radius: 6px;
+    margin-top: 90px;
+}
+
+.gol {
+    margin-left: 30px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.lgs {
+    margin-left: 30px;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgb(99, 100, 102);
+}
+
+.gs {
+    width: 300px;
+    height: 200px;
+    margin-left: 30px;
+    border-radius: 6px;
+    margin-top: 90px;
+}
+
+.grsp {
+    margin-left: 30px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.grouns {
+    margin-left: 30px;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgb(99, 100, 102);
+}
+
+.sectioneight {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 130px;
+
+}
+
+.more {
+    width: 180px;
+    height: 60px;
+    font-size: 16px;
+    font-family: Segoe UI;
+    font-weight: 600;
+    line-height: 18px;
+    margin: 24px 0px 0px;
+    padding: 18px 36px;
+    background-color: red;
+    color: whitesmoke;
+    border-radius: 6px;
+    border-color: rgb(255, 255, 255);
+    border-style: none;
+}
+
+.mainfu {
+    background-image: url(image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    height: 250px;
+    margin-left: 90px;
+    border-radius: 10px;
+}
+
+.dont {
+    padding-top: 70px;
+    width: 500px;
+    height: 40px;
+    color: whitesmoke;
+    font-family: Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell;
+    font-weight: 700;
+    line-height: 42px;
+
+}
+
+.Searchh {
+    width: 350px;
+    height: 50px;
+    border-radius: 6px;
+    margin-top: 110px;
+    margin-right: 20px;
+    border-color: rgb(248, 248, 248);
+
+}
+
+.ntb {
+    width: 200px;
+    height: 60px;
+    margin-top: 110px;
+    margin-right: 100px;
+    border-radius: 6px;
+    border-color: rgb(241, 19, 19);
+    background-color: red;
+    color: whitesmoke;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 700;
+
+}
+
+.lasttrans {
+    width: 300px;
+    height: 200px;
+}
+
+.htrans {
+    color: rgb(216, 16, 16);
+    font-size: 35px;
+
+}
+
+.fb {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border-color: red;
+    border-style: none;
+    margin-right: 8px;
+
+}
+
+.din {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border-color: red;
+    border-style: none;
+    margin-right: 8px;
+
+}
+
+.witter {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border-color: red;
+    border-style: none;
+    margin-right: 8px;
+}
+
+.goo {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border-color: red;
+    border-style: none;
+    margin-right: 8px;
+}
+
+.wh {
+    text-align: center;
+    color: white;
+    margin-top: 80px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.arewe {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Segoe UI;
+    line-height: 36px;
+}
+
+.who {
+    text-align: center;
+    color: white;
+    margin-top: 80px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.whatwe {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Segoe UI;
+    line-height: 36px;
+
+}
+
+.cmp {
+    text-align: center;
+    color: white;
+    margin-top: 80px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.cmpny {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Segoe UI;
+    line-height: 36px;
+}
+
+.min {
+    text-align: center;
+    color: white;
+    margin-top: 80px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.info {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Segoe UI;
+    line-height: 36px;
+}
+
+.lastpart {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 600px;
+    background-color: rgb(24, 29, 46);
+    margin-top: 130px;
+
+}
+
+.lastf {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(24, 29, 46);
+
+
+
+}
+
+.footer {
+    border: 0.034px solid rgb(181, 160, 160);
+    margin-top: -120px;
+    width: 90%;
+    border-left: 50px;
+    margin-left: 70px;
+    filter: blur(90%)
+}
+
+.copyright {
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: rgb(181, 180, 180);
+    margin-left: 120px;
+}
+
+.policy a {
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: rgb(181, 180, 180);
+    margin-left: 500px;
+    text-decoration: none;
+}
+
+.policy {
+    padding-top: 15px;
+}
+
+.terms {
+    padding-top: 15px;
+}
+
+.terms a {
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: rgb(181, 180, 180);
+    padding-right: 40px;
+    text-decoration: none;
+}
+
+.terms a:hover {
+    color: whitesmoke;
+    text-decoration: underline;
+    transition: 0.2s ease-in;
+}
+
+.policy a:hover {
+    color: whitesmoke;
+    text-decoration: underline;
+    transition: 0.2s ease-in;
+}
+
+.fst a:hover {
+    color: red;
+    background-color: blue;
+}
+
+
+
+
+
+
+
+
